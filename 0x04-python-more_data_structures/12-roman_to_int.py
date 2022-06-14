@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
     # Define conversion data structure
-    D = {"I": 1, "V": 5, "X": 10, "L": 50, "M": 500, "D": 1000}
+    D = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "M": 1000, "D": 500}
 
     # Check that roman_string has value else return nothing
     if (roman_string and isinstance(roman_string, str)):
