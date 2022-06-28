@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""Contains a rectangle class"""
 
 
 class Rectangle:
-    '''Rectangle blueprint'''
+    """A class that defines a rectangle object"""
     pass
