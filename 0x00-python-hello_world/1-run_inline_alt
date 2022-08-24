@@ -1,1 +1,2 @@
-echo $PYFILE | python3
+#!/bin/bash
+echo $PYCODE | python3
