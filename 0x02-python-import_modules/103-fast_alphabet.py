@@ -1,7 +1,6 @@
 #!/usr/bin/python3
+import string
 
 
-if __name__ == "__main__":    
-    for i in range(65, 91):
-        print("{}".format(chr(i)), end="")
-    print()
+if __name__ == "__main__":
+    print(string.ascii_uppercase)
